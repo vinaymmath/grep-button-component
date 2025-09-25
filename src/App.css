@@ -137,7 +137,7 @@ button .icon{
 
 .tertiary{
   background-color: #ffffff;
-  border: 0px;
+  /* border: 1px solid red; */
   box-shadow: none;
   color: #4338ca;
 
@@ -178,7 +178,8 @@ button .icon{
   color: #4338ca;
   /* border: 1px solid red; */
 
-  &.button-md, &.button-lg, &.button-xl, &.button-xxl{
+
+  &.button-md, &.button-lg, &.button-xl, &.button-xxl, &.button-symbol{
     padding: 0 2px;
   }
 
@@ -200,7 +201,7 @@ button .icon{
   color: #525252;
   /* border: 1px solid red; */
 
-  &.button-md, &.button-lg, &.button-xl, &.button-xxl{
+  &.button-md, &.button-lg, &.button-xl, &.button-xxl, &.button-symbol{
     padding: 0 2px;
   }
 
