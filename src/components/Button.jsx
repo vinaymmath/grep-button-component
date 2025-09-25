@@ -5,6 +5,7 @@ export default function Button({size = "medium", type="primary", contentType="te
         if(size === "large")  classList.push("button-lg")
         if(size === "xl")  classList.push("button-xl")
         if(size === "xxl")  classList.push("button-xxl")
+        if(size === "symbol")  classList.push("button-symbol")
         
         if(type === "primary") classList.push("primary")
         if(type === "secondary") classList.push("secondary")
