@@ -20,7 +20,7 @@
 .button-set{
   display: flex;
   flex-wrap: wrap;
-  gap: 22px;
+  gap: 20px;
   align-items: center;
   /* border: 1px dashed red; */
 }
